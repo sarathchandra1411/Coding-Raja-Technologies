@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #67fffc;
+  
+}
+ h2, h4{
+    color: #0A0908;
+    font-family: "Bebas Neue";
+    font-weight: 200;
+    border-bottom: 2px solid black;
+    margin-bottom: 5px;
+   
+}
+p{
+    color: #22333B;
+    font-family: "Poppins";
+    font-weight: 300;
+   
+}
+
+header{
+  border-bottom: 1px solid #5E503F;  
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.author{
+    font-family: "Dancing Script",serif;
+    font-weight: 700;
+}
+header p{
+    font-size: 10px;
+}
+
+header p a , footer a{
+    text-decoration: none;
+   color: #0B2545;
+    border-bottom: 1px solid black;
+}
+
+header h3{
+    border-bottom: 1px solid black;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: #0A0908;
+}
+
+/* content section starts */
+
+.content{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content p{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.template{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.template h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.templates{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.temp1, .temp2, .temp3, .temp4{
+    margin: 30px;
+    padding: 0;
+}
+
+.CTA{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.demo{
+    width: 70%;
+    height: auto;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 767px){
+    .templates{
+        flex-direction: column;
+    }
+    
+    .temp-size{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.temp-size{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 5px;
+}
+
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+footer p{
+    font-size: 10px;
+    color: #EAE0D5;
+}
+
+footer p a{
+   color: #EAE0D5;
+}
+
+    
